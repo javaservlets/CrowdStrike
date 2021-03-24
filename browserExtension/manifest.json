@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "ForgeRock Extension",
+  "version": "1.0",
+  "description": "Adds identity-defined intelligence to your browser",
+  "icons":
+        {
+        "48": "forgerock.png"
+        },
+  "web_accessible_resources": [
+        "ZeroTrustAssessment/data.zta"  ],
+  "content_scripts":
+        [
+            {
+            "matches": ["*://iot.freng.org/*", "*://localhost/*" ],
+            "js": ["forgerock.js"]
+            }
+        ]
+}
