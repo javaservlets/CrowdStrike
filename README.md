@@ -2,7 +2,7 @@
 
 # Zero Trust Assesment Authentication Node
 
-The CrowdStrike Authentication Node allows ForgeRock users to integrate their Access Managment (AM) instance with CrowdStrikes Zero Trust Assesment (ZTA); the first part of this integration uses a browser extensino to read the Overall Assesment score from the device; the second part then uses said value to make a policy decision as part of this Authentication Tree described here.
+The CrowdStrike Authentication Node allows ForgeRock users to integrate their Access Managment (AM) instance with CrowdStrikes Zero Trust Assesment (ZTA); the first part of this integration uses a browser extension to read the Overall Assesment score from the device; the second part then uses said value to make a policy decision as part of this Authentication Tree described here.
 
 This document assumes that you already have:
 > 1. ForgeRock Access Manager (AM) 7+ instance running with a user base configured
